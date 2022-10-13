@@ -1,0 +1,42 @@
+<template>
+    <lightning-card title="Navigation Demo">
+        <div class="slds-p-around_medium">
+            <lightning-button variant="brand" label="Nav. to home" onclick={homeHandler}></lightning-button>
+            <!-- <div class="slds-m-left_medium"> -->
+            <lightning-button class="slds-m-left_medium" variant="destructive" label="Nav. to chatter"
+                onclick={chatterHandler}></lightning-button>
+        </div>
+    </lightning-card>
+
+    <lightning-card title=" Navigate to new Record">
+        <div class="slds-p-around_medium">
+            <lightning-button label="new Record" variant="destructive" onclick={recordHandler}></lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-card title=" Navigate to new Record with default value">
+        <div class="slds-p-around_medium">
+            <lightning-button label="new Record with default value" variant="destructive" onclick={recordHandlerDefaultValues}></lightning-button>
+        </div>
+    </lightning-card>
+
+    <lightning-card title=" Navigate to view list">
+        <div class="slds-p-around_medium">
+            <lightning-button label="Navigate to view list" variant="brand"
+                onclick={recordHandlerViewList}></lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-card title=" Navigate to File">
+        <div class="slds-p-around_medium">
+            <lightning-button label=" Navigate to File" variant="brand" onclick={navigateToFile}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+
+    <lightning-card title=" Navigate to Record Page view mode">
+        <div class="slds-p-around_medium">
+            <lightning-button label=" Navigate to view mode" variant="brand" onclick={recordHandlerViewMode}>
+            </lightning-button><lightning-button label=" Navigate to Edit mode" variant="destructive" onclick={recordHandlerEditMode}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>

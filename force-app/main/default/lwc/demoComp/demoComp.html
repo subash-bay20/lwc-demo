@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Practice">
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Enter some text" onkeyup={forTitle}></lightning-input>
+            <h1> Hi, {Name} you learn {title}</h1>
+        </div>
+
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Enter country" onkeyup={forTrack}></lightning-input>
+            <h1>Mycountry name is {address.country}</h1>
+        </div>
+
+        <div class="slds-m-around_medium">
+            
+            <h1>User name is {userName}</h1>
+            <p>The sum is {mul}</p>
+        </div>
+
+
+    </lightning-card>
+</template>

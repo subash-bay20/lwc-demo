@@ -1,0 +1,6 @@
+:host{
+    display: block;
+    background-color: rgb(5, 250, 99);
+    color: rgb(31, 8, 235);
+    text-transform: uppercase;
+}

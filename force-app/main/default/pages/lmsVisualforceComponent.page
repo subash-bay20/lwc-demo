@@ -1,0 +1,47 @@
+<apex:page>
+    <apex:slds/>
+    <div class="slds-scope">
+        <div class="slds-p-around_medium">
+            <label>Enter your message</label>
+            <input type="text" class="slds-input" id="messageField" placeholder="Enter message here..." />
+            <div class="slds-p-top_medium slds-p-bottom_medium"> 
+                <button class="slds-button slds-button_brand" onclick="sendMessage()">Send</button>
+                <button class="slds-button slds-button_brand"
+                 onclick="SubscribeMessage()">Subscribe</button>
+                <button class="slds-button slds-button_brand"
+                 onclick="UnSubscribeMessage()">UnSubscribe</button>
+            </div>
+        </div>
+        <p>Messasge Recived</p>
+        <div id="messageReciev"></div>
+    </div>
+    <script>
+        let subscribeToMc
+    let SAMPLEMC = "{!$MessageChannel.subash__c}"
+    function sendMessage(){
+        document.getElementById('messageField').value
+        const message={
+            lmsData:{
+                value:data
+            }
+        }
+        sforce.one.publish(SAMPLEMC, message)
+    } 
+    function SubscribeMessage(){
+        if(!subscribeToMc){
+        subscribeToMc = sforce.one.subscribe(SAMPLEMC, msgHandler,{scope:"APPLICATION"}) 
+        }
+    }
+    function msgHandler(message){
+        let reciveMessage = document.getElementById('messageReciev')
+        reciveMessage.innerHTML = message && message.lmsData ? message.lmsData.value:"No message send"
+    }
+    function UnSubscribeMessage(){
+        if(subscribeToMc){
+        sforce.one.unsubscribe(subscribeToMc)
+        subscribeToMc = null
+        }
+    }
+
+    </script>
+</apex:page>

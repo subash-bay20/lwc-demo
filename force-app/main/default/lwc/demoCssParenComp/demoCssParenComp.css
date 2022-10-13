@@ -1,0 +1,17 @@
+h1{
+    background-color: black;
+    color: rgb(13, 243, 44);
+    text-transform: uppercase;
+}
+.new{
+    display: block;
+    color: red;
+    background: darkblue;
+    text-transform: lowercase;
+}
+/* c-demo-css-child-comp{
+    display: block;
+    background-color: rgb(250, 5, 5);
+    color: rgb(22, 0, 218);
+    text-transform: uppercase;
+} */

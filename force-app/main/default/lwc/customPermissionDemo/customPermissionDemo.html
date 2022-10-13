@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="User permission">
+        <template if:true={viewAllDataAvailable}>
+            <p> Permissioin check  successfully</p>
+        </template>
+        <template if:false={viewAllDataAvailable}>
+            <p> Permissioin check  Error</p>
+        </template>
+    </lightning-card>
+    <lightning-card title=" Custom permission">
+        <template if:true={MyCustomPermissionAvailable}>
+            <p> Permissioin check  successfully</p>
+        </template>
+        <template if:false={MyCustomPermissionAvailable}>
+            <p> Permissioin check  Error</p>
+        </template>
+    </lightning-card>
+</template>
