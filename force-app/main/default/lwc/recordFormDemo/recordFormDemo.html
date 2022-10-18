@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Lightning Record Page">
+        <lightning-record-form object-api-name={objectName} fields={fieldList} onsuccess={handleSuccess}>
+        </lightning-record-form>
+    </lightning-card>
+
+
+    <lightning-card title="Lightning Record Page">
+        <lightning-record-form record-id='0011y00000XaGxGAAV' object-api-name={objectName} fields={fieldList}>
+        </lightning-record-form>
+    </lightning-card>
+
+    <lightning-card title="Lightning Record Page">
+        <lightning-record-form record-id='0011y00000XaGxGAAV' object-api-name={objectName} fields={fieldList}
+            mode="readonly"></lightning-record-form>
+    </lightning-card>
+
+
+        <lightning-card title="Lightning Record Page">
+            <lightning-record-form record-id='0011y00000XaGxGAAV' object-api-name={objectName} columns="2" layout-type="Compact"
+                mode="edit"></lightning-record-form>
+        </lightning-card>
+</template>

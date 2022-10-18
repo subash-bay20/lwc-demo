@@ -1,0 +1,16 @@
+<template>
+   <lightning-card title="User detial using Wire">
+    <div class="slds-p-around_medium">
+        <template if:true={userDetail}>
+            <div>Name - {userDetail.Name.value}</div>
+            <div>Email - {userDetail.Email.value}</div>
+        </template>
+        <lightning-card>
+        <template if:true={usernewdetail.data}>
+            <div>Name - {usernewdetail.data.fields.Name.value}</div>
+            <div>Email - {usernewdetail.data.fields.Email.value}</div>
+        </template>
+        </lightning-card>
+    </div>
+   </lightning-card> 
+</template>
