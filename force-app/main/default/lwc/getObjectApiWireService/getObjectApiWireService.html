@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="GetObjectInfo  Adapter">
+        <div class="slds-p-around_medium">
+            <template if:true={objectInfo.data}>
+                <div>Record Id:- <strong>{objectInfo.data.defaultRecordTypeId}</strong></div>
+                <div>Name:- <strong>{objectInfo.data.apiName}</strong></div>
+                <div>Label:- <strong>{objectInfo.data.labelPlural}</strong></div>
+                <div>Custom:- <strong>{objectInfo.data.custom}</strong></div>
+                <div>Createable:- <strong>{objectInfo.data.createable}</strong></div>
+            </template>
+        </div>
+    </lightning-card>
+    <lightning-card title="GetObjectInfo Adapter">
+        <div class="slds-p-around_medium">
+            <template if:true={objectInfos}>
+                <template for:each={objectInfos.results} for:item="obj">
+                    <div key={obj.result.apiName}>
+                        <div>Record Id:- <strong>{obj.result.defaultRecordTypeId}</strong></div>
+                        <div>Name:- <strong>{obj.result.apiName}</strong></div>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>
