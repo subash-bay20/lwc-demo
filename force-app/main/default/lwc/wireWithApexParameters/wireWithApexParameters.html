@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Wire Apex With parameter">
+        <div class="slds-p-around_medium">
+            <lightning-combobox
+                name="type"
+                label="Choose youjr type"
+                value={selectedType}
+                options={typeOption}
+                onchange={changeHandler}
+                >
+            </lightning-combobox>
+            <template if:true={filterAccounts.data}>
+                <template for:each={filterAccounts.data} for:item="Account">
+                    <div class="slds-box slds-box_x-small" key={Account.Id}>
+                        <p><strong>Name:- </strong>{Account.Name}</p>
+                        <p><strong>Type:- </strong>{Account.Type}</p>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

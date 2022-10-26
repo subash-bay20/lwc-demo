@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title=" Apex Imperative  With Parameter Demo">
+        <div class="slds-p-around_medium">
+            <lightning-input 
+                type="search"
+                onchange={changeHandler}
+                label= 'Search Account'
+                value={searchKey}>
+            </lightning-input>
+            <template if:true={accounts}>
+                <template for:each={accounts} for:item="account">
+                    <div class="slds-p-around_medium" key={account.Id}>
+                        <p><strong>Id:-</strong> {account.Id}</p>
+                        <p><strong>Name:-</strong> {account.Name}</p>
+                        <p><strong>Type:-</strong> {account.Type}</p>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

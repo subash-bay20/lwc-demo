@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Delete Record ">
+        <form>
+            <div class="slds-p-around_medium">
+                <lightning-input label="Enter record Id wihich you want to delete" class="slds-m-bottom_medium"
+                    onchange={cahangeHandler}></lightning-input>
+                <lightning-button label="Delete" variant="destructive" onclick={deleteHandler}></lightning-button>
+            </div>
+        </form>
+    </lightning-card>
+</template>
