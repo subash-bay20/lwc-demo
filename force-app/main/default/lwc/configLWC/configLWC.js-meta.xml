@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <description>Description in xml </description>
+    <isExposed>true</isExposed>
+    <masterLabel>Demo meta label</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="recordId" type="String" />
+            <property name="heading" type="String" default="Meta config in LWC Demo" />
+            <objects>
+                <object>Account</object>
+            </objects>
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage">
+            <property name="heading" type="String" default="Meta config in LWC Demo" />
+            <property name="age" type="Integer" min="4" max="16" default="6" />
+            <property name="height" type="Integer" min="4" max="16" default="6" />
+            <property name="levels" type="String" label="Levels" datasource="High, Medium, Low" default="low" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

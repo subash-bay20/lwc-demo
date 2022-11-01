@@ -1,0 +1,45 @@
+<template>
+       <lightning-card title="Book App Demo">
+              <div class="slds-p-around_medium">
+                     <div class="slds-p-around-medium">
+                            <lightning-input type="search" onchange={fetchBookhandler}
+                                   placeholder='Search for more Books' value={quary}>
+                            </lightning-input>
+                     </div>
+                     <lightning-layout multiple-rows>
+                            <template if:true={books}>
+                                   <template for:each={books.items} for:item="book">
+                                          <lightning-layout-item size="3" padding="around-medium" key={book.id}>
+                                                 <div class="slds-box slds-p-around_medium mouseHover slds-text-align_center animate__animated animate__rotateIn">
+                                                        <template if:true={book.volumeInfo.imageLinks}>
+                                                               <img src={book.volumeInfo.imageLinks.thumbnail}>
+                                                               <template
+                                                                      if:false={book.volumeInfo.imageLinks.thumbnail}>
+                                                                      <img
+                                                                             src={book.volumeInfo.imageLinks.smallThumbnail}>
+                                                               </template>
+                                                        </template>
+
+                                                        <template if:false={book.volumeInfo.imageLinks}>
+                                                               <img src='https://www.eventsinnepal.com/uploads/44f169507e159709b9b5abc9f0ad8662_d6d87e55d9abe289927d6e5a2980ea9b_book-discussion-the-gurkhas-daughter.png'
+                                                                      height="200px">
+                                                        </template>
+                                                        <div class="slds-text-heading_small slds-p-virtical_medium">
+                                                               <strong>{book.volumeInfo.title}</strong>
+                                                        </div>
+                                                        <div><strong>Author :-</strong> {book.volumeInfo.authors}</div>
+                                                        <div><strong>Publish Date :-</strong>
+                                                               {book.volumeInfo.publishedDate}</div>
+                                                        <template if:true={book.volumeInfo.averageRating}>
+                                                               <div><strong>Rating :-</strong>
+                                                                      {book.volumeInfo.averageRating}
+                                                               </div>
+                                                        </template>
+                                                 </div>
+                                          </lightning-layout-item>
+                                   </template>
+                            </template>
+                     </lightning-layout>
+              </div>
+       </lightning-card>
+</template>
