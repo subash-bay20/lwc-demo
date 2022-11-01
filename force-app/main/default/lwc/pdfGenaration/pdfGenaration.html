@@ -1,0 +1,37 @@
+<template>
+       <div class="container" style="background: white; padding: 16px;">
+              <div style="margin-bottom: 8px;">
+                     <img src={imageUrl} style="height: 50px; width: 186px;" />
+                     <div style="display: inline-block; float: right;">
+                            <div>InvoiceNo *: {invoiceData.invoiceNo}</div>
+                            <div>Created *: {invoiceData.invoiceCreated}</div>
+                     </div>
+              </div>
+              <div style="margin-bottom: 20px;">
+                     <div style="display: inline-block;">
+                            <div>{invoiceData.companyName}</div>
+                            <div>{invoiceData.address}</div>
+                     </div>
+                     <div style="display: inline-block; float: right; text-align: end;">
+                            <div>{clientData.client}</div>
+                            <div>{clientData.userName}</div>
+                            <div>{clientData.phone}</div>
+                     </div>
+              </div>
+              <div style="background:#eee; margin:10px 0; padding:10px">
+                     <div style=" display: inline-block; "><strong>Service</strong></div>
+                     <div style=" display: inline-block; float: right;"><strong>Amount</strong></div>
+              </div>
+              <template iterator:service={services}>
+                     <div key={service.value.name}>
+                            <div style=" display: inline-block;  padding:7px">{service.value.name}</div>
+                            <div style=" display: inline-block; float: right ; padding:7px">$ {service.value.amount}
+                            </div>
+                     </div>
+                     <div if:true={service.last} key={service.value.name} >
+                            <div style=" text-align: right; "><strong>Total amount : $ {totalAmount}</strong></div>
+                     </div>
+              </template>
+       </div>
+       <lightning-button variant="brand" label="Generate PDF" onclick={pdfGenerator}></lightning-button>
+</template>
