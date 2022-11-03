@@ -6,6 +6,7 @@ export default class Charts extends LightningElement {
        isChartInit
        @api type
        @api chartHeading
+       @api chartDatas
        @api chartLabels
        renderedCallback() {
               if (this.isChartInit) {
@@ -35,7 +36,7 @@ export default class Charts extends LightningElement {
                             labels: this.chartLabels ? this.chartLabels : [],
                             datasets: [{
                                    label: this.chartHeading,
-                                   data: [12, 19, 3, 5, 22, 3,7,8,11],
+                                   data: [this.chartDatas[0], this.chartDatas[1], this.chartDatas[2], this.chartDatas[3], this.chartDatas[4], this.chartDatas[5], this.chartDatas[6], this.chartDatas[7], this.chartDatas[8]],
                                    backgroundColor: [
                                           'red',
                                           'green',

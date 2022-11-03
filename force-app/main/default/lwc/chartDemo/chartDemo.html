@@ -3,16 +3,16 @@
               <lightning-layout-item size="6" padding="around-medium">
                      <lightning-card title="Total Oppurtunities 1">
                             <template if:true={pieChartLabels.length}>
-                                   <c-charts type="bar" chart-heading="Opportunities" chart-labels={pieChartLabels}></c-charts>
+                                   <c-charts type="bar" chart-heading="Opportunities" chart-datas ={pieChartData} chart-labels={pieChartLabels}></c-charts>
                             </template>
                      </lightning-card>
               </lightning-layout-item>
 
               <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtrththghreunities  2">
+                     <lightning-card title="Total Oppurtunities  2">
                             <template if:true={pieChartLabels.length}>
                                    <c-charts type="doughnut" chart-heading="Opportunities next"
-                                          chart-data={pieChartData} chart-labels={pieChartLabels}>
+                                          chart-datas={pieChartData} chart-labels={pieChartLabels}>
                                    </c-charts>
                             </template>
                      </lightning-card>
