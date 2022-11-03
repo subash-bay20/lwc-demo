@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 548,
+  "serverMaxRevisionCounter": 907,
   "sourceMembers": {
     "Profile__Admin": {
       "serverRevisionCounter": 9,
@@ -1775,6 +1775,192 @@
       "serverRevisionCounter": 540,
       "lastRetrievedFromServer": 540,
       "memberType": "ApexPage",
+      "isNameObsolete": false
+    },
+    "StaticResource__ChartJS": {
+      "serverRevisionCounter": 549,
+      "lastRetrievedFromServer": null,
+      "memberType": "StaticResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__charts": {
+      "serverRevisionCounter": 904,
+      "lastRetrievedFromServer": 904,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__charts/charts.html": {
+      "serverRevisionCounter": 905,
+      "lastRetrievedFromServer": 905,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__charts/charts.js-meta.xml": {
+      "serverRevisionCounter": 906,
+      "lastRetrievedFromServer": 906,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__charts/charts.js": {
+      "serverRevisionCounter": 907,
+      "lastRetrievedFromServer": 907,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "CustomTab__Real_time": {
+      "serverRevisionCounter": 561,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Real_time": {
+      "serverRevisionCounter": 571,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__chartDemo": {
+      "serverRevisionCounter": 900,
+      "lastRetrievedFromServer": 900,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__chartDemo/chartDemo.js-meta.xml": {
+      "serverRevisionCounter": 901,
+      "lastRetrievedFromServer": 901,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__chartDemo/chartDemo.html": {
+      "serverRevisionCounter": 902,
+      "lastRetrievedFromServer": 902,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__chartDemo/chartDemo.js": {
+      "serverRevisionCounter": 903,
+      "lastRetrievedFromServer": 903,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "ApexClass__OppurtinitiesController": {
+      "serverRevisionCounter": 630,
+      "lastRetrievedFromServer": 630,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__chart2": {
+      "serverRevisionCounter": 703,
+      "lastRetrievedFromServer": 703,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__charts2Demo": {
+      "serverRevisionCounter": 771,
+      "lastRetrievedFromServer": 771,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__chart2/chart2.js": {
+      "serverRevisionCounter": 704,
+      "lastRetrievedFromServer": 704,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__chart2/chart2.html": {
+      "serverRevisionCounter": 705,
+      "lastRetrievedFromServer": 705,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__chart2/chart2.js-meta.xml": {
+      "serverRevisionCounter": 706,
+      "lastRetrievedFromServer": 706,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__charts2Demo/charts2Demo.js-meta.xml": {
+      "serverRevisionCounter": 772,
+      "lastRetrievedFromServer": 772,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__charts2Demo/charts2Demo.js": {
+      "serverRevisionCounter": 773,
+      "lastRetrievedFromServer": 773,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__charts2Demo/charts2Demo.html": {
+      "serverRevisionCounter": 774,
+      "lastRetrievedFromServer": 774,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "CustomTab__real_time_Demo": {
+      "serverRevisionCounter": 720,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "FlexiPage__real_time_Demo": {
+      "serverRevisionCounter": 730,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "ApexClass__NewOpportunityController": {
+      "serverRevisionCounter": 872,
+      "lastRetrievedFromServer": 872,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__bishal": {
+      "serverRevisionCounter": 888,
+      "lastRetrievedFromServer": 888,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__bishaldemo": {
+      "serverRevisionCounter": 877,
+      "lastRetrievedFromServer": 877,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__bishal/bishal.js-meta.xml": {
+      "serverRevisionCounter": 889,
+      "lastRetrievedFromServer": 889,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__bishal/bishal.js": {
+      "serverRevisionCounter": 890,
+      "lastRetrievedFromServer": 890,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__bishal/bishal.html": {
+      "serverRevisionCounter": 891,
+      "lastRetrievedFromServer": 891,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__bishaldemo/bishaldemo.html": {
+      "serverRevisionCounter": 878,
+      "lastRetrievedFromServer": 878,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__bishaldemo/bishaldemo.js-meta.xml": {
+      "serverRevisionCounter": 879,
+      "lastRetrievedFromServer": 879,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__bishaldemo/bishaldemo.js": {
+      "serverRevisionCounter": 880,
+      "lastRetrievedFromServer": 880,
+      "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }
   }
