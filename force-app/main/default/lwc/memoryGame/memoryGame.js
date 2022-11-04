@@ -14,7 +14,7 @@ export default class MemoryGame extends LightningElement {
     cards = [
         { id: 1, listClass: "card", type: "diamond", icon: "fa fa-diamond" },
         { id: 2, listClass: "card", type: "bicycle", icon: "fa fa-bicycle" },
-        { id: 3, listClass: "card", type: "telegram", icon: "fa fa-telegram" },
+        { id: 3, listClass: "card", type: "bug", icon: "fa fa-bug" },
         { id: 4, listClass: "card", type: "facebook", icon: "fa fa-facebook-square" },
         { id: 5, listClass: "card", type: "gratipay", icon: "fa fa-gratipay" },
         { id: 6, listClass: "card", type: "birthday", icon: "fa fa-birthday-cake" },
@@ -24,7 +24,7 @@ export default class MemoryGame extends LightningElement {
         { id: 10, listClass: "card", type: "diamond", icon: "fa fa-diamond" },
         { id: 11, listClass: "card", type: "facebook", icon: "fa fa-facebook-square" },
         { id: 12, listClass: "card", type: "video", icon: "fa fa-video-camera" },
-        { id: 13, listClass: "card", type: "telegram", icon: "fa fa-telegram" },
+        { id: 13, listClass: "card", type: "bug", icon: "fa fa-bug" },
         { id: 14, listClass: "card", type: "bicycle", icon: "fa fa-bicycle" },
         { id: 15, listClass: "card", type: "clock", icon: "fa fa-clock-o" },
         { id: 16, listClass: "card", type: "birthday", icon: "fa fa-birthday-cake" },
