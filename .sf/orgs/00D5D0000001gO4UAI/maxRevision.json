@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 628,
+  "serverMaxRevisionCounter": 643,
   "sourceMembers": {
     "StaticResource__ChartJS": {
       "serverRevisionCounter": 1,
@@ -260,8 +260,8 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__chartDemo": {
-      "serverRevisionCounter": 349,
-      "lastRetrievedFromServer": 349,
+      "serverRevisionCounter": 640,
+      "lastRetrievedFromServer": 640,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
@@ -554,8 +554,8 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__staticResourceImage": {
-      "serverRevisionCounter": 244,
-      "lastRetrievedFromServer": 244,
+      "serverRevisionCounter": 630,
+      "lastRetrievedFromServer": 630,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
@@ -566,8 +566,8 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__thirdParty": {
-      "serverRevisionCounter": 253,
-      "lastRetrievedFromServer": 253,
+      "serverRevisionCounter": 636,
+      "lastRetrievedFromServer": 636,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
@@ -746,20 +746,20 @@
       "isNameObsolete": false
     },
     "LightningComponentResource__thirdParty/thirdParty.html": {
-      "serverRevisionCounter": 254,
-      "lastRetrievedFromServer": 254,
+      "serverRevisionCounter": 637,
+      "lastRetrievedFromServer": 637,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__thirdParty/thirdParty.js-meta.xml": {
-      "serverRevisionCounter": 255,
-      "lastRetrievedFromServer": 255,
+      "serverRevisionCounter": 638,
+      "lastRetrievedFromServer": 638,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__thirdParty/thirdParty.js": {
-      "serverRevisionCounter": 256,
-      "lastRetrievedFromServer": 256,
+      "serverRevisionCounter": 639,
+      "lastRetrievedFromServer": 639,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -1094,20 +1094,20 @@
       "isNameObsolete": false
     },
     "LightningComponentResource__staticResourceImage/staticResourceImage.js": {
-      "serverRevisionCounter": 245,
-      "lastRetrievedFromServer": 245,
+      "serverRevisionCounter": 631,
+      "lastRetrievedFromServer": 631,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__staticResourceImage/staticResourceImage.html": {
-      "serverRevisionCounter": 246,
-      "lastRetrievedFromServer": 246,
+      "serverRevisionCounter": 632,
+      "lastRetrievedFromServer": 632,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__staticResourceImage/staticResourceImage.js-meta.xml": {
-      "serverRevisionCounter": 247,
-      "lastRetrievedFromServer": 247,
+      "serverRevisionCounter": 633,
+      "lastRetrievedFromServer": 633,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -1436,20 +1436,20 @@
       "isNameObsolete": false
     },
     "LightningComponentResource__chartDemo/chartDemo.html": {
-      "serverRevisionCounter": 350,
-      "lastRetrievedFromServer": 350,
+      "serverRevisionCounter": 641,
+      "lastRetrievedFromServer": 641,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__chartDemo/chartDemo.js-meta.xml": {
-      "serverRevisionCounter": 351,
-      "lastRetrievedFromServer": 351,
+      "serverRevisionCounter": 642,
+      "lastRetrievedFromServer": 642,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__chartDemo/chartDemo.js": {
-      "serverRevisionCounter": 352,
-      "lastRetrievedFromServer": 352,
+      "serverRevisionCounter": 643,
+      "lastRetrievedFromServer": 643,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -2003,6 +2003,24 @@
       "serverRevisionCounter": 608,
       "lastRetrievedFromServer": null,
       "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "StaticResource__rahul_jpg": {
+      "serverRevisionCounter": 629,
+      "lastRetrievedFromServer": null,
+      "memberType": "StaticResource",
+      "isNameObsolete": false
+    },
+    "StaticResource__moment": {
+      "serverRevisionCounter": 634,
+      "lastRetrievedFromServer": null,
+      "memberType": "StaticResource",
+      "isNameObsolete": false
+    },
+    "StaticResource__animate": {
+      "serverRevisionCounter": 635,
+      "lastRetrievedFromServer": null,
+      "memberType": "StaticResource",
       "isNameObsolete": false
     }
   }
