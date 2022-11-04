@@ -1,9 +1,9 @@
 import { LightningElement } from 'lwc';
-// import { loadStyle } from 'lightning/platformResourceLoader';
-// import FONTAWESOME from '@salesforce/resourceUrl/fontawesome';
+import { loadStyle } from 'lightning/platformResourceLoader';
+import FONTAWESOME from '@salesforce/resourceUrl/fontawesome';
 export default class MemoryGame extends LightningElement {
 
-    /*totalTime = '00:00'
+    totalTime = '00:00'
     timeRef
     reset = false
     isLoaded = false
@@ -146,5 +146,5 @@ export default class MemoryGame extends LightningElement {
             })
             this.isLoaded = true
         }
-    }*/
+    }
 }   
