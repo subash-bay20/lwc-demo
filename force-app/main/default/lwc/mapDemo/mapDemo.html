@@ -1,0 +1,12 @@
+<template>
+    <div class="slds-box">
+        <template if:true={mapMarkersPoint.length}>
+            <lightning-map map-markers={mapMarkersPoint} markers-title={markerTitle} onmarkerselect={callmarkerHandler}
+                selected-marker-value={selectMarkerValue}></lightning-map>
+        </template>
+        <template if:false={mapMarkersPoint.length}>
+            <div>Data Niakhe</div>
+        </template>
+
+    </div>
+</template>

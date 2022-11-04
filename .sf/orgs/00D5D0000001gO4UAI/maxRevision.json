@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 364,
+  "serverMaxRevisionCounter": 425,
   "sourceMembers": {
     "StaticResource__ChartJS": {
       "serverRevisionCounter": 1,
@@ -1874,9 +1874,51 @@
       "isNameObsolete": false
     },
     "ApexClass__NewOpportunityController": {
-      "serverRevisionCounter": 340,
-      "lastRetrievedFromServer": 340,
+      "serverRevisionCounter": 373,
+      "lastRetrievedFromServer": 373,
       "memberType": "ApexClass",
+      "isNameObsolete": true
+    },
+    "ApexClass__MapController": {
+      "serverRevisionCounter": 409,
+      "lastRetrievedFromServer": 409,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__mapDemo": {
+      "serverRevisionCounter": 422,
+      "lastRetrievedFromServer": 422,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__mapDemo/mapDemo.js": {
+      "serverRevisionCounter": 423,
+      "lastRetrievedFromServer": 423,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__mapDemo/mapDemo.html": {
+      "serverRevisionCounter": 424,
+      "lastRetrievedFromServer": 424,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__mapDemo/mapDemo.js-meta.xml": {
+      "serverRevisionCounter": 425,
+      "lastRetrievedFromServer": 425,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "CustomTab__Map": {
+      "serverRevisionCounter": 382,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Map": {
+      "serverRevisionCounter": 393,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
       "isNameObsolete": false
     }
   }
