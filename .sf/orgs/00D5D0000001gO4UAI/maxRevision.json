@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 425,
+  "serverMaxRevisionCounter": 594,
   "sourceMembers": {
     "StaticResource__ChartJS": {
       "serverRevisionCounter": 1,
@@ -464,8 +464,8 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__memoryGame": {
-      "serverRevisionCounter": 183,
-      "lastRetrievedFromServer": 183,
+      "serverRevisionCounter": 590,
+      "lastRetrievedFromServer": 590,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
@@ -1550,26 +1550,26 @@
       "isNameObsolete": false
     },
     "LightningComponentResource__memoryGame/memoryGame.css": {
-      "serverRevisionCounter": 184,
-      "lastRetrievedFromServer": 184,
+      "serverRevisionCounter": 591,
+      "lastRetrievedFromServer": 591,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__memoryGame/memoryGame.html": {
-      "serverRevisionCounter": 185,
-      "lastRetrievedFromServer": 185,
+      "serverRevisionCounter": 592,
+      "lastRetrievedFromServer": 592,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__memoryGame/memoryGame.js": {
-      "serverRevisionCounter": 186,
-      "lastRetrievedFromServer": 186,
+      "serverRevisionCounter": 593,
+      "lastRetrievedFromServer": 593,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__memoryGame/memoryGame.js-meta.xml": {
-      "serverRevisionCounter": 187,
-      "lastRetrievedFromServer": 187,
+      "serverRevisionCounter": 594,
+      "lastRetrievedFromServer": 594,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -1917,6 +1917,78 @@
     },
     "FlexiPage__Map": {
       "serverRevisionCounter": 393,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "ApexClass__FilterClass": {
+      "serverRevisionCounter": 457,
+      "lastRetrievedFromServer": 457,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__filterDemo": {
+      "serverRevisionCounter": 573,
+      "lastRetrievedFromServer": 573,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__filterDemo/filterDemo.js": {
+      "serverRevisionCounter": 575,
+      "lastRetrievedFromServer": 575,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__filterDemo/filterDemo.html": {
+      "serverRevisionCounter": 576,
+      "lastRetrievedFromServer": 576,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__filterDemo/filterDemo.js-meta.xml": {
+      "serverRevisionCounter": 577,
+      "lastRetrievedFromServer": 577,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "CustomTab__Filtering_and_sorting": {
+      "serverRevisionCounter": 437,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Filtering_and_sorting": {
+      "serverRevisionCounter": 445,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__filterDemo/filterDemo.css": {
+      "serverRevisionCounter": 574,
+      "lastRetrievedFromServer": 574,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "CustomApplication__TSM": {
+      "serverRevisionCounter": 587,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomApplication",
+      "isNameObsolete": false
+    },
+    "ContentAsset__Tsm_logo": {
+      "serverRevisionCounter": 578,
+      "lastRetrievedFromServer": null,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "StaticResource__fontawesome": {
+      "serverRevisionCounter": 589,
+      "lastRetrievedFromServer": null,
+      "memberType": "StaticResource",
+      "isNameObsolete": false
+    },
+    "FlexiPage__TSM_UtilityBar": {
+      "serverRevisionCounter": 584,
       "lastRetrievedFromServer": null,
       "memberType": "FlexiPage",
       "isNameObsolete": false
