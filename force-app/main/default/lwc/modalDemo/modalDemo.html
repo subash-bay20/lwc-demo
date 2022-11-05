@@ -1,0 +1,37 @@
+<template>
+       <lightning-card title="Modal Component Demo ">
+              <div class="slds-p-around_medium">
+                     <lightning-button label="Click me" variant="brand" onclick={clickHandler}></lightning-button>
+                     <lightning-button label="Click 2 me" variant="brand" onclick={clickSecondHandler}></lightning-button>
+              </div>
+       </lightning-card>
+       <template if:true={isClicked}>
+              <c-reusable-modal onclose={cancelHandler}>
+                     <!-- <h1 slot="title">Main header</h1> -->
+                     <h1 slot="footer"><button class="slds-button slds-button_neutral"
+                                   aria-label="Cancel and close" onclick={cancelHandler}>Cancel</button>
+                            <button class="slds-button slds-button_brand" onclick={cancelHandler}>Save</button>
+                     </h1>
+                     <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat
+                            veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud
+                            elit officia tempor esse quis. Cillum sunt ad dolore quis aute consequat ipsum magna
+                            exercitation reprehenderit magna. Tempor cupidatat consequat elit dolor adipisicing.</p>
+              </c-reusable-modal>
+       </template>
+
+<template if:true={secondIsClicked}>
+       <c-reusable-modal onclose={cancelHandler}>
+              <h1 slot="title">Main header</h1>
+              <h1 slot="footer"><button class="slds-button slds-button_neutral" aria-label="Cancel and close"
+                            onclick={cancelHandler}>Cancel</button>
+                     <button class="slds-button slds-button_brand" onclick={cancelHandler}>Save</button>
+              </h1>
+              <!-- <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat
+                     veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud
+                     elit officia tempor esse quis. Cillum sunt ad dolore quis aute consequat ipsum magna
+                     exercitation reprehenderit magna. Tempor cupidatat consequat elit dolor adipisicing.</p> -->
+       </c-reusable-modal>
+</template>
+
+
+</template>
