@@ -56,7 +56,15 @@ img {
        font-size: 13px;
        top: 0;
 }
-
+.puse {
+       position: absolute;
+       color: white;
+       border: hidden !important;
+       padding: 5px !important;
+       font-size: 13px;
+       top: 0;
+       right: 0;
+}
 .dot {
        height: 15px;
        width: 15px;

@@ -1,7 +1,12 @@
 <template>
+       <!-- <div class="slds-is-relative container" style={maxWidth}> -->
        <div class="slds-is-relative container">
               <template for:each={slidesData} for:item="slide">
                      <div class={slide.cardClasses} key={slide.slideIndex}>
+
+                            <lightning-button-icon-stateful icon-name="action:approval" selected={enableAutoScroll} class="puse" onclick={autoScroll} alternative-text="Like"></lightning-button-icon-stateful>
+                            <!-- <lightning-input type="toggle" class="puse" label="Basic option" onclick={autoScroll} name="Auto controller">
+                            </lightning-input> -->
                             <div class="slidenumber">{slide.slideIndex}/{slidesData.length}</div>
                             <img src={slide.image} />
                             <div class="text-section">

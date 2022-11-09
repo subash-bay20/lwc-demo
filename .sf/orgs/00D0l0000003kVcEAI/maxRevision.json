@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 705,
+  "serverMaxRevisionCounter": 1113,
   "sourceMembers": {
     "Profile__Admin": {
       "serverRevisionCounter": 42,
@@ -2054,50 +2054,50 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__customCarousal": {
-      "serverRevisionCounter": 701,
-      "lastRetrievedFromServer": 701,
+      "serverRevisionCounter": 1109,
+      "lastRetrievedFromServer": 1109,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentBundle__customCarousalWrapper": {
-      "serverRevisionCounter": 651,
-      "lastRetrievedFromServer": 651,
+      "serverRevisionCounter": 1100,
+      "lastRetrievedFromServer": 1100,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__customCarousal/customCarousal.html": {
-      "serverRevisionCounter": 702,
-      "lastRetrievedFromServer": 702,
+      "serverRevisionCounter": 1110,
+      "lastRetrievedFromServer": 1110,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__customCarousal/customCarousal.js-meta.xml": {
-      "serverRevisionCounter": 703,
-      "lastRetrievedFromServer": 703,
+      "serverRevisionCounter": 1111,
+      "lastRetrievedFromServer": 1111,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__customCarousal/customCarousal.js": {
-      "serverRevisionCounter": 704,
-      "lastRetrievedFromServer": 704,
+      "serverRevisionCounter": 1112,
+      "lastRetrievedFromServer": 1112,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__customCarousalWrapper/customCarousalWrapper.js": {
-      "serverRevisionCounter": 652,
-      "lastRetrievedFromServer": 652,
+      "serverRevisionCounter": 1101,
+      "lastRetrievedFromServer": 1101,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__customCarousalWrapper/customCarousalWrapper.js-meta.xml": {
-      "serverRevisionCounter": 653,
-      "lastRetrievedFromServer": 653,
+      "serverRevisionCounter": 1102,
+      "lastRetrievedFromServer": 1102,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__customCarousalWrapper/customCarousalWrapper.html": {
-      "serverRevisionCounter": 654,
-      "lastRetrievedFromServer": 654,
+      "serverRevisionCounter": 1103,
+      "lastRetrievedFromServer": 1103,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -2162,8 +2162,32 @@
       "isNameObsolete": false
     },
     "LightningComponentResource__customCarousal/customCarousal.css": {
-      "serverRevisionCounter": 705,
-      "lastRetrievedFromServer": 705,
+      "serverRevisionCounter": 1113,
+      "lastRetrievedFromServer": 1113,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__buttonProperty": {
+      "serverRevisionCounter": 877,
+      "lastRetrievedFromServer": 877,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__buttonProperty/buttonProperty.js-meta.xml": {
+      "serverRevisionCounter": 878,
+      "lastRetrievedFromServer": 878,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__buttonProperty/buttonProperty.js": {
+      "serverRevisionCounter": 879,
+      "lastRetrievedFromServer": 879,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__buttonProperty/buttonProperty.html": {
+      "serverRevisionCounter": 880,
+      "lastRetrievedFromServer": 880,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }

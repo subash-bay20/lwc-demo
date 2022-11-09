@@ -24,7 +24,7 @@ export default class CustomCarousalWrapper extends LightningElement {
               },
               {
                      image: monkey,
-                     heading: 'monkey',
+                     heading: 'Rahul',
                      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. .'
               },
               {
