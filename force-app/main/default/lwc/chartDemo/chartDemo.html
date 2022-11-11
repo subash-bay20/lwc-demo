@@ -1,15 +1,16 @@
 <template>
        <lightning-layout multiple-rows>
               <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtunities 1">
+                     <lightning-card title="Total Oppurtunities 1  Type: Bar">
                             <template if:true={pieChartLabels.length}>
-                                   <c-charts type="bar" chart-heading="Opportunities" chart-datas ={pieChartData} chart-labels={pieChartLabels}></c-charts>
+                                   <c-charts type="bar" chart-heading="Opportunities" chart-datas={pieChartData}
+                                          chart-labels={pieChartLabels}></c-charts>
                             </template>
                      </lightning-card>
               </lightning-layout-item>
 
               <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtunities  2">
+                     <lightning-card title="Total Oppurtunities Type: doughnut">
                             <template if:true={pieChartLabels.length}>
                                    <c-charts type="doughnut" chart-heading="Opportunities next"
                                           chart-datas={pieChartData} chart-labels={pieChartLabels}>
@@ -17,20 +18,9 @@
                             </template>
                      </lightning-card>
               </lightning-layout-item>
-       </lightning-layout>
 
-       <lightning-layout multiple-rows>
               <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtunities 1">
-                            <template if:true={pieChartLabels.length}>
-                                   <c-charts type="bubble" chart-heading="Opportunities" chart-datas={pieChartData}
-                                          chart-labels={pieChartLabels}></c-charts>
-                            </template>
-                     </lightning-card>
-              </lightning-layout-item>
-       
-              <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtunities  2">
+                     <lightning-card title="Total Oppurtunities Type: pie">
                             <template if:true={pieChartLabels.length}>
                                    <c-charts type="pie" chart-heading="Opportunities next" chart-datas={pieChartData}
                                           chart-labels={pieChartLabels}>
@@ -38,42 +28,27 @@
                             </template>
                      </lightning-card>
               </lightning-layout-item>
-       </lightning-layout>
 
-       <lightning-layout multiple-rows>
               <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtunities 1">
+                     <lightning-card title="Total Oppurtunities Type: line">
                             <template if:true={pieChartLabels.length}>
                                    <c-charts type="line" chart-heading="Opportunities" chart-datas={pieChartData}
                                           chart-labels={pieChartLabels}></c-charts>
                             </template>
                      </lightning-card>
               </lightning-layout-item>
-       
-              <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtunities  2">
-                            <template if:true={pieChartLabels.length}>
-                                   <c-charts type="scatter" chart-heading="Opportunities next" chart-datas={pieChartData}
-                                          chart-labels={pieChartLabels}>
-                                   </c-charts>
-                            </template>
-                     </lightning-card>
-              </lightning-layout-item>
-       </lightning-layout>
 
-
-       <lightning-layout multiple-rows>
               <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtunities 1">
+                     <lightning-card title="Total Oppurtunities Type: polarArea">
                             <template if:true={pieChartLabels.length}>
                                    <c-charts type="polarArea" chart-heading="Opportunities" chart-datas={pieChartData}
                                           chart-labels={pieChartLabels}></c-charts>
                             </template>
                      </lightning-card>
               </lightning-layout-item>
-       
+
               <lightning-layout-item size="6" padding="around-medium">
-                     <lightning-card title="Total Oppurtunities  2">
+                     <lightning-card title="Total Oppurtunities  Type: radar">
                             <template if:true={pieChartLabels.length}>
                                    <c-charts type="radar" chart-heading="Opportunities next" chart-datas={pieChartData}
                                           chart-labels={pieChartLabels}>
@@ -81,5 +56,7 @@
                             </template>
                      </lightning-card>
               </lightning-layout-item>
+
        </lightning-layout>
+
 </template>
