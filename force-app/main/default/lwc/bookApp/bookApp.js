@@ -1,7 +1,7 @@
 import { LightningElement } from 'lwc';
-// import ANIMATE from '@salesforce/resourceUrl/animate'
-// import { loadStyle } from 'lightning/platformResourceLoader'
-// const Book_url = 'https://www.googleapis.com/books/v1/volumes?q='
+import ANIMATE from '@salesforce/resourceUrl/animate'
+import { loadStyle } from 'lightning/platformResourceLoader'
+const Book_url = 'https://www.googleapis.com/books/v1/volumes?q='
 export default class BookApp extends LightningElement {
        quary = 'Thanos'
        books
